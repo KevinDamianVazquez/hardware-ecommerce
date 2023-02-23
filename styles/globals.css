@@ -7,3 +7,16 @@
   margin: 0;
   padding: 0;
 }
+
+.input {
+  @apply focus:outline-none focus:border p-1;
+}
+
+
+.transition {
+  transition: all .2s ease-in;
+}
+
+.hide {
+  transform: translateX(-384px);
+}
